@@ -1,0 +1,184 @@
+/*Olivia Maney
+09/17/2026
+styles.css*/
+
+/*CSS Reset*/
+
+body, header, nav, main, footer, img,h1,h3 {
+    margin: 0;
+    padding: 0%;
+    border: 0;
+}
+
+/*Style rules for body and images*/
+body    {
+   background-color:#f5efd6;
+   text-align: center;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    text-align: center;
+}
+
+h1 {
+.playfair-display-block {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+}
+
+/*Style rules for navigation area*/
+nav   {
+    background-color: #840000;
+    padding: 1%,2%;
+    margin-bottom: 1%;
+    border-radius: 16px;
+    font-family: Geneva, Arial, sans-serif;
+    font-weight: bold;
+    color:#840000;
+}
+
+nav ul  {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li  {
+    display: inline-block;
+    color:#840000;
+    font-size: 1.5em;
+    font-family: Geneva, Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color:#b80000;
+    border-radius: 999px;
+    border: 2% solid #f5efd6;
+}
+
+nav li a    {
+    display: block;
+    color: #f5efd6;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+}
+
+/*Style rules for class and id selectors*/
+.link    {
+    padding: 2%;
+    font-family: Verdana, Arial, sans-serif;
+    color:#840000;
+}
+
+main p  {
+    color:#840000;
+    font-size: 1.25em;
+    text-align: center;
+    font-family: Geneva, Arial, sans-serif;
+}
+
+main h3 {
+    color:#840000;
+    padding: 2%;
+    font-family: Geneva, Arial, sans-serif;
+}
+
+main ul {
+    list-style-type: square;
+}
+
+/*Style rules for class and id selectors*/
+.link    {
+    color: #f5efd6;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Geneva, Arial, sans-serif;
+}
+
+.action {
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contact    {
+    text-align: center;
+}
+
+footer  {
+    text-align: center;
+    font-size: 0.85em;
+    background-color:#f5efd6;
+    color: #f5efd6;
+    padding: 1% 0%;
+}
+
+footer a    {
+    color: #f5efd6;
+    text-decoration: none;
+}
+
+header  {
+    font-family: Geneva, Arial, sans-serif;
+    color:#840000
+}
+
+.mobile {
+    display: block;
+}
+
+.tab-desk {
+    display: none;
+}
+
+@media screen and (min-width: 620px), print {
+    .tab-desk {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+
+    nav li {
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width: 1000px), print {
+    nav li {
+        font-size: 1.5em;
+    }
+    nav li a {
+        padding: 0.5em 1.5em;
+    }
+
+    nav li a:hover {
+        color: #840000;
+        background-color: #f5efd6;
+    }
+}
+
+img {
+    max-width: 100%; display: block; border-radius: 16px; background-color: #840000; color:#840000; padding: 0.5rem;
+}
+
+.special    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#photoshop  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25em;
+    flex-wrap: wrap;
+}
